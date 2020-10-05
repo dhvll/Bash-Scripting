@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+#Look before you leap
+
+jump_directory=/home/Dhaval
+
+if [ -d $jump_directory ]
+then
+    echo "The $jump_directory directory exits"
+else
+    echo "The $jump_directory directory does not exits"
+fi

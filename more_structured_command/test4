@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# using  a variable to hold the list
+
+list="Mumbai pune kolkata delhi goa"
+list=$list" Roha"
+
+for state in $list
+
+do 
+    echo "Have you ever visited $state?"
+done

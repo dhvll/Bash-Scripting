@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Testing nested ifs
+
+testuser=NoSuchUser
+if grep $testuser /etc/passwd; then
+    echo "The user $testuser does  exist on this system."
+else
+    echo "The user $testuser does not exist on this system."
+    echo
+    if ls -d /home/$testuser/
+    then
+        echo "However, $testuser has a directory."
+    fi
+fi

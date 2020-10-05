@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# handling lots of parameters
+
+total=$[ ${12} * ${14} ]
+echo The twelveth parameter is ${12}
+echo The fourteeth parameter is ${14}
+echo The total is $total
+

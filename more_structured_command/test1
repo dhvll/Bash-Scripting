@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# basic for command
+
+for test in Mumbai pune kolkata delhi goa 
+do
+    echo The next state is $test
+done
+
+

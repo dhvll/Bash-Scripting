@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for test in " Navi Mumbai" "Old pune" "yuckk kolkata" " New delhi" " Sexy goa"
+do
+    echo "The next state is $test" 
+
+done
+

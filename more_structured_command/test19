@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# breaking of inner looop
+
+for (( a = 1; a <= 3; a++))
+do
+    echo "Outer loop: $a"
+    for (( b = 1; b < 20; b++))
+    do
+        if [ $b -eq 4 ]
+        then
+            break
+        fi
+        echo "  Inner loop: $b"
+    done
+done
+
